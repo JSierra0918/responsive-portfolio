@@ -137,10 +137,10 @@ li#about, li#portfolio {
     padding-right: 10px;
 }
 
-.center-container img::after {
+/* .center-container img::after {
     content: "";
     clear: both;
-}
+} */
 
 footer {
     background-color:#666666;
@@ -195,6 +195,7 @@ footer p {
 
     .center-container {
         width: 89%;
+        float: inherit;
     }
 
     .center-container img {
@@ -215,8 +216,8 @@ footer p {
     .menu-container {
         background-color: #fff;
         height: auto;
-        padding: 20px 10px;
         text-align: center;
+        padding-bottom: 30px;
     }
 
     .menu-container li {
@@ -226,7 +227,7 @@ footer p {
     .center-container {
 
         width: 85%;
-        margin: 70px auto;
+        margin: 90px auto;
     }
 
     .about-me-content {

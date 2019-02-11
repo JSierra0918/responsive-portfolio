@@ -7,23 +7,24 @@ form.contact-form label {
 
 }
 
-.form-container input {
-    border: 10px #9999a6 solid;
+input {
+    border: 1px #dddddd solid;
     background-color: #fff;
 }
 
 input#contact-info, input#email-info {
     padding: 10px;
-    width: 97%;
+    width: 98%;
 }
 
 textarea {
     width: 99%;
+    border: 1px #dddddd solid;
 }
 
 input#btn-submit {
     padding: 10px;
-    width: 14%;
+    width: 6rem;
     background-color: #4aaaa5;
     color: white;
     font-size: 19px;
@@ -38,4 +39,37 @@ input#btn-submit:hover {
 
 input#btn-submit:active {
     background-color: #22807b;
+}
+
+@media screen and (max-width: 980px){
+
+    input#contact-info, input#email-info {
+        width: 97%;
+    }
+    
+    textarea {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+ 
+    input#contact-info, input#email-info {
+        width: 97%;
+    }
+    
+    textarea {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    input#contact-info, input#email-info {
+        width: 96%;
+    }
+    
+    textarea {
+        width: 100%;
+    }
 }
