@@ -194,7 +194,7 @@ footer p {
 @media screen and (max-width: 768px) {
 
     .center-container {
-        width: 89%;
+        width: 89vw;
         float: none;
         margin: 40px auto 400px auto;
     }
@@ -227,7 +227,7 @@ footer p {
     
     .center-container {
 
-        width: 85%;
+        width: 85vw;
         margin: 90px auto;
     }
 
@@ -247,4 +247,22 @@ footer p {
         text-align: left;
     }
 
+}
+
+@media screen and (max-width: 400px){
+    .center-container {
+        width: 75vw;
+        margin-top: 150px;
+    }
+
+    li#about, li#portfolio, li#contact {
+        text-align: left;
+        margin-left: 30vw;
+        display: block;
+        border-right: 2px solid #ececec;
+        margin-right: 30px;
+        padding-right: 20px;
+        line-height: 1.7rem;
+
+    }
 }
