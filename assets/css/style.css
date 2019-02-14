@@ -183,7 +183,7 @@ footer p {
 
     .center-container {
          margin: 40px auto 400px 20px;
-         width: 60%;
+         width: 588px;
     }
 
     .center-container p {
@@ -195,7 +195,8 @@ footer p {
 
     .center-container {
         width: 89%;
-        float: inherit;
+        float: none;
+        margin: 40px auto 400px auto;
     }
 
     .center-container img {
