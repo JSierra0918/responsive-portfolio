@@ -265,4 +265,9 @@ footer p {
         line-height: 1.7rem;
 
     }
+
+    .about-me-content img {
+        height: auto;
+        width: 100%;
+    }
 }
